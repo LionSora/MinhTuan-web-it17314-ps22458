@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* map */
+iframe[name=page]{
+    width: 90%;
+   height: 100%;
+}
+.box35{
+    width: 35%;
+    height: 550px;
+    margin-top: 1%;
+    float: left;
+    margin-bottom: 3%;
+}
+.boxtren{
+    width: 70%;
+    height: 15%;
+    margin-left: 15%;
+    background-color: rgb(109, 42, 42);
+}
+.chuvang2{
+    margin-top: 2%;
+    color: yellow;
+    text-align: center;
+    font-size: 13pt;
+    font-weight: bold;
+}
+.boxduoi{
+    margin-top: 3%;
+    margin-left: 15%;
+    width: 70%;
+    height: 69%;
+
+}
+.boxduoi a{
+    text-decoration: none;
+    color: black;
+}
+.box65{
+    margin-left: 2%;
+    width: 63%;
+    height: 550px;
+    margin-top: 2%;
+    float: left;
+    margin-bottom: 3%;
+}
+/* login */
+.loginbr{
+    width: 100%;
+    height: 950px;
+    background-image: url(../images/loginbr2.jfif);
+}
+.logologin{
+    width: 15%;
+    height: 60px;
+}
+.logologin img{
+    width: 100%;
+    height: 100%;
+}
+.boxlogin{
+    width: 40%;
+    height: 300px;
+    margin-top: 10%;
+    margin-left: 30%;
+    background-color: 	#fff8dc;
+}
+.dangnhap{
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-left: 2%;
+
+}
+.dangky{
+    width: 45%;
+    height: 100%;
+    float: left;
+}
+.control{
+    margin-bottom: 3%;
+    width: 80%;
+    height: 30%;
+}
+.control2{
+    width: 100%;
+    height: 30%;
+    margin-bottom: 3%;
+}
+button{
+    margin-top: 3%;
+    width: 30%;
+    height: 10%;
+    background-color: rgb(107, 27, 13);
+    color: rgb(231, 222, 222);
+    border-radius: 10px;
+}
+.tennem{
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.tennem a{
+    color: rgb(37, 35, 35);
+    font-size: 19pt;
+    font-weight: bold;   
+}
+.chudo2{
+    margin-bottom: 1%;
+}
+.chudo2 a{
+    color: rgb(248, 21, 21);
+    font-size: 22pt;
+    font-weight: bold;
+}
+.gach2{
+    margin-bottom: 1%;
+}
+.gach2 a{
+    color: rgba(47, 47, 46, 0.596);
+    font-size: 17pt;
+    
+}
+.trai2{
+    position: absolute;
+    bottom: 61%;
+    right: 36%;
+}
+.trai2 a{
+color: rgba(47, 47, 46, 0.596);
+font-size: 13pt;
+}
+.mt2{
+    margin-top: 3%;
+}
+form{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+label{
+    font-size: 13pt;
+}
+select{
+    width: 130px;
+    height: 30px;
+}
+input{
+    width: 130px;
+    height: 30px;
+}
+.dem{
+    margin-top: 2%;
+}
+
+/* child 1 */
+.img25{
+    width: 33%;
+    height: 400px;
+    float: left;
+    
+
+    
+}
+.img25 img{
+    width: 100%;
+    height: 100%;
+}
+.dathang{
+    width: 35%;
+    height: 400px;
+    /* background-color: aquamarine; */
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.dathang a{
+    text-decoration: none;
+}
+.logochild{
+    width: 20%;
+    height: 10%;
+}
+.logochild img{
+    width: 100%;
+    height: 100%;
+}
+.boxchild{
+    width: 100%;
+    height: auto;
+    margin-top: 6%;
+    background-color: blanchedalmond;
+    /* position: relative; */
+
+}
+table{
+    border-collapse: collapse;
+}
+.table{
+    width: 30% ;
+    height: 500px;
+    float: left;
+    /* background-color: aquamarine; */
+    /* background-color: cadetblue; */
+}
+th{height: 40px;}
+td{
+    width: 200px;
+    height: 40px;
+}

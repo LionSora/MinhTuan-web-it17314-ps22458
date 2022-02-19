@@ -1,0 +1,136 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.mr{margin-right: 20px;}
+.mt{margin-top: 20px;}
+.ml{margin-left: 20px;}
+.mb{margin-bottom: 20px;}
+/* css thuong hieu */
+.boxto{
+    width: 100%;
+    height: 190px;
+    
+    position: relative;
+}
+.box{
+    width: 78%;
+    height: 90px;
+    
+    position: absolute;
+    left: 18%;
+}
+.box1{
+    width: 80%;
+    height: 90px;
+    position: absolute;
+    bottom: 20px;
+    
+    left: 12%;
+}
+.boxcon{
+    width: 15%;
+    height: 60px;
+    float: left;
+}
+.boxcon img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+/* css loai nem */
+.boxto2{
+width: 100%;
+height: 190px;
+position: relative;
+}
+.loainem{
+    width: 13%;
+    height: 100%;
+    float: left;
+    position: relative;
+    left: 8%;
+    text-align: center;
+}
+.imgnem{
+    width: 100%;
+    height: 70%;
+  
+}
+.imgnem img{
+    width: 50%;
+    height: 100%;
+}
+.loainem a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    
+}
+/* css nem */
+.boxto3{
+    width: 100%;
+    height: 750px;
+
+}
+.nem{
+    width: calc(25% - 25px);
+    height: 48%;
+    float: left;
+    position: relative;
+}
+.hinhsp{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    bottom: 30%;
+}
+.hinhsp img{
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.gia{
+    width: 100%;
+    height: 27%;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 5%;
+    
+}
+.gia a{
+    text-decoration: none;
+    color: black;
+}
+.ten{
+    font-size: 1.1em;
+}
+.chudo{
+    color: red;
+    font-size: 1.4em;
+    font-weight: bold;
+    position: absolute;
+    bottom:25%;
+}
+del{
+    position: absolute;
+    bottom: 7%;
+}
+.trai{
+    position: absolute;
+    right: 0px;
+    bottom: 7%;
+}
+/* kich thuoc */
+.imgkichthuoc{
+    width: 100%;
+    height: 70%;
+  
+}
+.imgkichthuoc img{
+    width: 60%;
+    height: 100%;
+}

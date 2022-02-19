@@ -1,0 +1,538 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.mr{
+    margin-right: 20px;
+}
+.ml{
+    margin-left: 20px;
+}
+.mll2{margin-left: 30px;}
+.mb{
+    margin-bottom: 20px;
+}
+.mt{
+    margin-top: 20px;
+}
+
+.containner{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+header{
+    width: 100%;
+    height: 140px;
+    float: left;
+    position: relative;
+}
+.htop{
+    width: 100%;
+    height: 30px;
+    background-color: #8B3A3A;
+    position: relative;
+}
+.htopleft{
+    float: left;
+    width: 40%;
+    margin-left: 10%;
+    top: 20%;
+}
+.htopright{
+    float: left;
+    width: 40%;
+
+}
+.htoptext{
+    position: absolute;
+    top: 20%;
+}
+.htoptext2{
+    width: 30%;
+    height: 30px;
+
+    position: absolute;
+    right: 0px;
+    top: 20%;
+}
+.chuvang{
+    color: yellow;
+    float: left;
+}
+.chutrang{
+    color: white;
+    float: left;
+    
+}
+.hhome{
+    width: 100%;
+    height: 100px;
+    
+}
+.logo{
+    position: absolute;
+width: 22%;
+height: 55%;
+    top: 43px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.timkiem{
+    width: 40%;
+    height: 35%;
+    position: absolute;
+    left: 25%;
+    bottom: 20%;
+}
+.timkiem input{
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    text-align: left;
+    
+}
+.chucnang{
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    right: 0px;
+    top: 95px;
+    
+}
+.chucnang a{
+    text-decoration: none;
+    color: brown;
+    font-size: 18px;
+    font-weight: bold;
+}
+.chucnang a:hover{
+    color: red;
+}
+.icon{
+    float: left;
+}
+.icon2{
+    float: left;
+}
+.icon img{
+    width: 10%;
+    height: 75%;
+    position: absolute;
+    bottom: 130%;
+    right: 84%;
+}
+.icon2 img{
+    width: 10%;
+    height: 75%;
+    position: absolute;
+    bottom: 130%;
+    right: 57%;
+}
+.icon3 img{
+    width: 10%;
+    height: 75%;
+    position: absolute;
+    bottom: 130%;
+    right: 31%;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    float: left;
+    list-style: none;
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    margin-left: 1%;
+}
+.menu>ul>li>a{
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    color: brown;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+}
+.menu>ul>li>a:hover{
+    color: red;
+}
+.menu>ul>li{
+    float: left;
+    margin-right: 3%;
+}
+.hmenu{
+    list-style: none;
+}
+
+.hmenu>li{
+    display: inline-block;
+    margin:0 10px;
+    position: relative;
+}
+.hmenu>li>a{
+    text-decoration: none;
+    color: #eee;
+    display: block;
+    padding:0px 5px;
+}
+.hmenu>li:hover .smenu{
+    display: block;
+}
+.smenu{
+    list-style: none;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    width: 300px;
+    padding:10px 20px;
+    background-color: #eee;
+    display: none;
+    z-index: 100;
+    border-radius: 10px;
+}
+.smenu>li{
+    display: block;
+    height: 40px;
+}
+.smenu>li>a{
+    text-decoration: none;
+    color: rgb(37, 36, 36);
+    font-size: 1.1em;
+    padding: 10px 5px;
+    display: block;
+}
+.smenu>li:hover a{
+color: rgb(148, 139, 139);
+}
+article{
+    width: 100%;
+    float: left;
+    min-height: 1000px;
+}
+.banner{
+    width: 100%;
+    height: 450px;
+}
+.banner30{
+    width: calc(20% - 10px);
+    height: 450px;
+    background-color: rgb(180, 109, 15);
+    float: left;
+}
+.banner70{
+    width: calc(100% - 10px);
+    height: 450px;
+    background-color: burlywood;
+    margin: 0px;
+    float: left;
+}
+.banner70 img{
+    width: 100%;
+height: 100%;
+}
+.title{
+    text-align: center;
+    color: brown;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.box{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(93, 105, 98);
+
+}
+.boxcon{
+    position: absolute;
+    width: 100%;
+    height: 82%;
+    top: 18%;
+    border: 1px solid #CCCCCC;
+}
+iframe[name=page]{
+    width: 100%;
+    min-height: 300px;
+}
+iframe[name=page2]{
+    width: 100%;
+    height: 100%;
+}
+.boxcon2{
+    position: absolute;
+    width: 100%;
+    height: 92%;
+    top: 6%;
+}
+.menubox{
+    width: 12%;
+    height: 45px;
+    float: left;
+    position: absolute;
+    background-color: #FFE4C4;
+    border-radius: 7px;
+    left: 31%;
+}
+.menubox:visited{
+    background-color: #8B3A3A;
+    color: yellow;
+}
+.menubox>a{
+    line-height: 45px;
+    text-decoration: none;
+    padding-left: 15px;
+    text-decoration: none;
+    color: brown;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+}
+.menubox1>a{
+    line-height: 45px;
+    text-decoration: none;
+    padding-left: 36px;
+    text-decoration: none;
+    color: brown;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+}
+.menubox2>a{
+    line-height: 45px;
+    text-decoration: none;
+    padding-left: 29px;
+    text-decoration: none;
+    color: brown;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+}
+.menubox3>a{
+    line-height: 45px;
+    text-decoration: none;
+    padding-left: 59px;
+    text-decoration: none;
+    color: brown;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+}
+.menubox4>a{
+    line-height: 45px;
+    text-decoration: none;
+    padding-left: 59px;
+    text-decoration: none;
+    color: brown;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+}
+.menubox5>a{
+    line-height: 45px;
+    text-decoration: none;
+    padding-left: 39px;
+    text-decoration: none;
+    color: brown;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+}
+.menubox1{
+    width: 12%;
+    height: 45px;
+    float: left;
+    background-color: #FFE4C4;
+    border-radius: 7px;
+    position: absolute;
+    left: 44%;
+}
+.menubox2{
+    width: 12%;
+    height: 45px;
+    float: left;
+    background-color: #FFE4C4;
+    border-radius: 7px;
+    position: absolute;
+    left: 57%;
+}
+.menubox3{
+    width: 12%;
+    height: 45px;
+    background-color: #FFE4C4;
+    border-radius: 7px;
+    float: left;
+    position: absolute;
+    left: 31%;
+}
+.menubox4{
+    width: 12%;
+    height: 45px;
+    float: left;
+    background-color: #FFE4C4;
+    border-radius: 7px;
+    position: absolute;
+    left: 44%;
+}
+.menubox5{
+    width: 12%;
+    height: 45px;
+    float: left;
+    position: absolute;
+    left: 57%;
+    border-radius: 7px;
+    background-color: #FFE4C4;
+}
+.box1{
+    width: 100%;
+    min-height: 300px;
+    position: relative;
+}
+.box2{
+    width: 100%;
+    min-height: 840px;
+    position: relative;
+}
+.box3{
+    width: 100%;
+    min-height: 400px;
+    
+}
+.box3con{
+    width: calc(25% - 30px);
+    height: 340px;
+    position: relative;
+    float: left;
+}
+.sanpham{
+    width: 100%;
+    height: 70%;
+}
+.sanpham img{
+    width: 100%;
+    height: 100%;
+}
+.gia{
+    width: 100%;
+    height: 50px;
+}
+.gia a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+}
+.chudo{
+    color: red;
+    font-size: 23px;
+    font-weight: bold;
+}
+.trai{
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+}
+.box4{
+    width: 100%;
+    min-height: 400px;
+}
+.box4con{
+    width: calc(33% - 30px);
+    height: 400px;
+    float: left;
+}
+.box4img{
+width: 100%;
+height: 70%;
+
+}
+.box4img img{
+    width: 100%;
+    height: 100%;
+}
+.thongtin{
+    margin: 0 auto;
+    text-align: justify;
+    text-align: center;
+    width: 100%;
+    height: 20%;
+    position: relative;
+    bottom: 0px;
+}
+.thongtin a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+}
+.box5{
+    width: 100%;
+    min-height: 230px;
+    font-size: 20px;
+}
+.box5 .thongtin{
+    margin: 0 auto;
+    text-align: justify;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+    float:left;
+position: relative;
+left: 15%;
+margin-left: 35px;
+}
+.thongtin img{
+    width: 70px;
+    height: 70px;
+}
+.title img{
+    width: 14%;
+    height: 9%;
+}
+.boximg{
+    width: 100%;
+    height: 130px;
+
+}
+.boximg img{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    width: 100%;
+    float: left;
+    height: 360px;
+    background-color: brown;
+    position: relative;
+}
+.footer1{
+    width: 15%;
+    height: 20%;
+    margin-left: 42%;
+}
+.footer1 img{
+    width: 100%;
+    height: 100%;
+    
+}
+.footerbox{
+    width: 100%;
+    position: absolute;
+    height: 300px;
+    bottom: 0px;
+    font-size: 18px;
+    line-height: 23px;
+}
+.footerbox .thongtin{
+    margin: 0 auto;
+    text-align: justify;
+    text-align: center;
+    width: 22%;
+    height: 100%;
+    float:left;
+    margin-left: 10%;
+    margin-top: 1%;
+}
